@@ -3,10 +3,6 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
-
-    bot.user.setActivity('Crazy1190BOT', {type: "WATCHING"});
-
-    //bot.user.setGame('Nolify');
 });
 
 client.on('message', message => {
