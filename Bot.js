@@ -10,7 +10,7 @@ client.on('message', message => {
     	message.reply('Poprawne użycie: !b @oznaczenie (powód)');
   	}
     if (message.content === '!pomoc') {
-        message('Trwają beta testy!');
+        message.reply('Trwają beta testy!');
         }
 });
 
