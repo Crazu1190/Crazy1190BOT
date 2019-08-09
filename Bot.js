@@ -9,6 +9,9 @@ client.on('message', message => {
     if (message.content === '!zbanuj') {
     	message.reply('Poprawne użycie: !b @oznaczenie (powód)');
   	}
+    if (message.content === '!pomoc') {
+        message.reply('Trwają beta testy!');
+        }
 });
 
 // THIS  MUST  BE  THIS  WAY
