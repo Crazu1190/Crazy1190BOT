@@ -15,6 +15,10 @@ client.on('message', message => {
     if (message.content === '!pomoc') {
         message.channel.send('ta komenda nie działa z powodu betatestów');
         }
+    if (message.content === '!info') {
+        message.channel.send('Test')
+        await
+        message.channel.send('Test pomyślny!');
 });
 
 // THIS  MUST  BE  THIS  WAY
