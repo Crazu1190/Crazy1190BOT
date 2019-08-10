@@ -9,9 +9,8 @@ client.on('message', message => {
     if (message.content === '!zbanuj') {
     	message.reply('Poprawne użycie: !b @oznaczenie (powód)');
   	}
-    if (message.content === '!pomoc') {
-        message.Crazy1190.send('Trwają beta testy!');
-        message.channel.send('Sprawa zostanie rozpatrzona!');
+    if (message.content === '@Crazy1190') {
+        message.channel.send('Nie oznaczaj administracji!');
         }
 });
 
