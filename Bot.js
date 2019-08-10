@@ -12,6 +12,8 @@ client.on('message', message => {
     if (message.content === '!pomoc') {
         message.reply('Trwają beta testy!');
         }
+    id (!banicja) return message.reply('XD');
+        }
 });
 
 
