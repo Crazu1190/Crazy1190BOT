@@ -15,6 +15,20 @@ client.on('message', message => {
         message.reply('Trwają beta testy!');
         }
 });
+//!say Hi!
+  //Hi
+  if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.reply("No");
+  let botmessage = args.join(" ");
+  message.delete().catch();
+  message.channel.send(botmessage);
+}
+
+});
+
+module.exports.help = {
+  name: "say"
+}
+
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
