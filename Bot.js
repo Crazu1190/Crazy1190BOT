@@ -13,7 +13,7 @@ client.on('message', message => {
         message.channel.send('Nie używaj przekleństw!');
         }
     if (message.content === '!pomoc') {
-        message.beta-testy.send('ta komenda nie działa z powodu betatestów');
+        message.pomoc.send('ta komenda nie działa z powodu betatestów');
         }
 });
 
