@@ -12,6 +12,9 @@ client.on('message', message => {
     if (message.content === 'Kurwa') {
         message.channel.send('Nie używaj przekleństw!');
         }
+    if (message.content === '!pomoc') {
+        message.channel.send(ta komenda nie działa z powodu betatestów');
+        }
 });
 
 // THIS  MUST  BE  THIS  WAY
