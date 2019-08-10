@@ -1,6 +1,8 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
+module.exports.run = async (bot, message, args) => {
+
 client.on('ready', () => { 
     console.log('I am ready!');
 });
