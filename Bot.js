@@ -17,7 +17,7 @@ client.on('message', message => {
         }
     if (message.content === '!info {target}') {
         message.channel.send('Test');
-        message.channel.send('{target} Test pomyślny!');
+        message.channel.send('xd Test pomyślny!');
         }
 });
 
