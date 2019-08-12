@@ -3,9 +3,6 @@ const client = new Discord.Client();
 
 client.on('ready', () => { 
 
-bot.user.setActivity("banan", {type: "WATCHING"});
-
-  //bot.user.setGame("banan");
 });
 
 client.on('message', message => {
