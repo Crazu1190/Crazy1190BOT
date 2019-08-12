@@ -15,7 +15,7 @@ client.on('message', message => {
     if (message.content === '!pomoc') {
         message.channel.send('ta komenda nie działa z powodu betatestów');
         }
-    if (message.content === '!info') {
+    if (message.content === '!info ${message.author}') {
         message.channel.send('Test');
         message.channel.send('${message.author} ,xd Test pomyślny!');
         }
