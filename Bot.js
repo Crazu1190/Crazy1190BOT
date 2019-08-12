@@ -6,8 +6,21 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '!zbanuj') {
-    	message.reply('Poprawne użycie: !b @oznaczenie (powód)');
+    if (message.content === '!eventy') {
+    	message.channel.send('Wyszukiwanie informacji...');
+        message.channel.send(' ');
+        message.channel.send(' ');
+        message.channel.send(' ');
+        message.channel.send('Wczytywanie...');
+        message.channel.send(' ');
+        message.delete('Wczytywanie...');
+        message.reply('wszystko zostało wczytane!');
+        message.channel.send('■■■■■■■■■■■■');
+        message.channel.send('**Najbilższy event:**');
+        message.channel.send('***Kruca***');
+        message.channel.send('**Data:** 30.08.2019 **Godz:** 11:30-12:00');
+        message.channel.send('**Brak dostępu do kanału głosowego**');
+        message.channel.send('■■■■■■■■■■■■');
   	}
     if (message.content === 'Kurwa') {
         message.channel.send('Nie używaj przekleństw!');
