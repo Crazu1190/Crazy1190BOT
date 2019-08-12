@@ -107,7 +107,7 @@ bot.on("message", async message => {
 
 
 
-  if(cmd === `${prefix}serverinfo`){
+  if(cmd === `$serverinfo`){
 
     let sicon = message.guild.iconURL;
     let serverembed = new Discord.RichEmbed()
@@ -124,7 +124,7 @@ bot.on("message", async message => {
 
 
 
-  if(cmd === `${prefix}botinfo`){
+  if(cmd === `$botinfo`){
 
     let bicon = bot.user.displayAvatarURL;
     let botembed = new Discord.RichEmbed()
