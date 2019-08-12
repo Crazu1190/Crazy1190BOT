@@ -53,7 +53,7 @@ client.on('message', message => {
         message.reply('strzela!');
         message.channel.send('Możesz **nie zostać postrzelonym!**');
         message.channel.send('**Używając komendę:**');
-        message.channel.send('!oslona');
+        message.channel.send('**!oslona**');
         message.channel.send('5');
         message.channel.send('4');
         message.channel.send('3');
