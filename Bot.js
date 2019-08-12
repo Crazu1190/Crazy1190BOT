@@ -27,7 +27,7 @@ client.on('message', message => {
         }
     if (message.content === '!changelog') {
         message.channel.send('■■■■■■■■■■■■');
-        message.channel.send('**Wersja:** 1.0');
+        message.channel.send('**Wersja:** 1.0 **(beta**');
         message.channel.send('**Dodano:**');
         message.channel.send('!info - pokazuje informacje');
         message.channel.send('!eventy - pokazuje eventy i informcje o nich');
