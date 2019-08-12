@@ -50,7 +50,6 @@ client.on('message', message => {
         message.channel.send('■■■■■■■■■■■■');
         }
     if (message.content === '!strzal') {
-        message.delete('!strzal');
         message.channel.send('Uwaga!');
         message.reply('strzela!);
         message.channel.send('Wszystcy ręce do góry!');
