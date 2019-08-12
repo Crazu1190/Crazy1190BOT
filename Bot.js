@@ -54,6 +54,7 @@ client.on('message', message => {
          message.channel.send('Uwaga!');
          message.reply('strzela!);
          message.channel.send('Wszystcy ręce do góry!');
+        }
 });
 
 // THIS  MUST  BE  THIS  WAY
