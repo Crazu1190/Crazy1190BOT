@@ -26,7 +26,7 @@ client.on('message', message => {
         message.channel.send('Nie używaj przekleństw!');
         }
     if (message.content === '!zmutowany') {
-        message.channel.send('tymek9pl został **wyciszony** przez Crazy1190 z powodu: Warny!');
+        message.channel.send('Off!');
         }
     if (message.content === '!info') {
         message.channel.send('Wyszukiwanie informacji...');
