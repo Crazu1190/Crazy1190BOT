@@ -25,8 +25,14 @@ client.on('message', message => {
     if (message.content === 'Kurwa') {
         message.channel.send('Nie używaj przekleństw!');
         }
-    if (message.content === '!zmutowany ${target}') {
-        message.channel.send('Off! ${target}');
+    if (message.content === '!changelog') {
+        message.channel.send('■■■■■■■■■■■■');
+        message.channel.send('**Wersja:** 1.0');
+        message.channel.send('**Dodano:**');
+        message.channel.send('!info - pokazuje informacje');
+        message.channel.send('!eventy - pokazuje eventy i informcje o nich');
+        message.channel.send('***Najnowsza***');
+        message.channel.send('■■■■■■■■■■■■');
         }
     if (message.content === '!info') {
         message.channel.send('Wyszukiwanie informacji...');
