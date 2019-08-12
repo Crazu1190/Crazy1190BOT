@@ -31,7 +31,6 @@ client.on('message', message => {
         message.channel.send('**Dodano:**');
         message.channel.send('!info - pokazuje informacje');
         message.channel.send('!eventy - pokazuje eventy i informcje o nich');
-        message.channel.send('***Najnowsza***');
         message.channel.send('■■■■■■■■■■■■');
         }
     if (message.content === '!info') {
