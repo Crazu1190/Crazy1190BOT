@@ -61,6 +61,20 @@ client.on('message', message => {
         message.channel.send('1');
         message.channel.send('**Strzał!** przeżyli tylko ci co użyli osłony!');
         }
+    if (message.content === '!oslona') {
+        message.channel.send('Ładowanie osłony: 30%');
+        message.channel.send(' ');
+        message.channel.send(' ');
+        message.channel.send('Ładowanie osłony: 60%');
+        message.channel.send(' ');
+        message.channel.send(' ');
+        message.channel.send('Ładowanie osłony: 90%');
+        message.channel.send(' ');
+        message.channel.send(' ');
+        message.channel.send('Ładowanie osłony: 100%');
+        message.channel.send('**Osłona załadowana!**');
+        message.reply('załadował osłone jest ochroniony pred strzałem!');
+        }
 });
 
 // THIS  MUST  BE  THIS  WAY
