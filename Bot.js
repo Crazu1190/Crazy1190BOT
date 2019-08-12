@@ -29,7 +29,6 @@ client.on('message', message => {
         message.channel.send('Autor: Crazy1190');
         message.channel.send('Język: Polski');
         message.channel.send('Wersja: 1.0');
-        message.channel.send('Status: Online');
         message.channel.send('■■■■■■■■■■■■');
         }
 });
