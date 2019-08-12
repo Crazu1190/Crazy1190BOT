@@ -5,6 +5,8 @@ client.on('ready', () => {
 
 });
 
+//1000 - 1sec
+
 client.on('message', message => {
     if (message.content === '!zbanuj') {
     	message.reply('Poprawne użycie: !b @oznaczenie (powód)');
@@ -21,7 +23,7 @@ client.on('message', message => {
         message.channel.send(' ');
         message.channel.send(' ');
         message.channel.send('Wczytywanie...');
-        message.channel.send(' ');
+        message.delete(5000);
         message.channel.send(' ');
         message.reply('wszystko zostało wczytane!');
         message.channel.send('Serwer: NOLIFY®');
