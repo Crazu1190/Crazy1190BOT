@@ -49,7 +49,7 @@ client.on('message', message => {
         message.channel.send('Wersja: 1.0');
         message.channel.send('■■■■■■■■■■■■');
         }
-    if (message.content === '!killall'
+    if (message.content === '!killall') {
         message.reply('strzela!');
         message.channel.send('Możesz **nie zostać postrzelonym!**');
         message.channel.send('**Używając komendę:**');
