@@ -5,8 +5,6 @@ client.on('ready', () => {
 
 });
 
-//1000 - 1sec
-
 client.on('message', message => {
     if (message.content === '!zbanuj') {
     	message.reply('Poprawne użycie: !b @oznaczenie (powód)');
@@ -23,8 +21,8 @@ client.on('message', message => {
         message.channel.send(' ');
         message.channel.send(' ');
         message.channel.send('Wczytywanie...');
-        message.delete(5000);
         message.channel.send(' ');
+        message.delete('Wczytywanie...')
         message.reply('wszystko zostało wczytane!');
         message.channel.send('Serwer: NOLIFY®');
         message.channel.send('Autor: Crazy1190');
