@@ -49,6 +49,18 @@ client.on('message', message => {
         message.channel.send('Wersja: 1.0');
         message.channel.send('■■■■■■■■■■■■');
         }
+    if (message.content === '!killall'
+        message.reply('strzela!');
+        message.channel.send('Możesz **nie zostać postrzelonym!**');
+        message.channel.send('**Używając komendę:**');
+        message.channel.send('!oslona');
+        message.channel.send('5');
+        message.channel.send('4');
+        message.channel.send('3');
+        message.channel.send('2');
+        message.channel.send('1');
+        message.channel.send('**Strzał!** przeżyli tylko ci co użyli osłony!');
+        }
 });
 
 // THIS  MUST  BE  THIS  WAY
