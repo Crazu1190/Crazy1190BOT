@@ -17,7 +17,7 @@ client.on('message', message => {
         }
     if (message.content === '!info') {
         message.channel.send('Test');
-        message.channel.send('${message.author},xd Test pomyślny!');
+        message.channel.send('${message.author} ,xd Test pomyślny!');
         }
 });
 
