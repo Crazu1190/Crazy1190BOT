@@ -22,8 +22,8 @@ client.on('message', message => {
         message.channel.send('**Brak dostępu do kanału głosowego**');
         message.channel.send('■■■■■■■■■■■■');
   	}
-    if (message.content === 'Kurwa') {
-        message.channel.send('Nie używaj przekleństw!');
+    if (message.content === '!witam') {
+        message.reply('wita wszystkich!');
         }
     if (message.content === '!changelog') {
         message.channel.send('■■■■■■■■■■■■');
