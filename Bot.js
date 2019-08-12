@@ -75,6 +75,9 @@ client.on('message', message => {
         message.channel.send('**Osłona załadowana!**');
         message.reply('załadował osłone jest ochroniony pred strzałem!');
         }
+    if (message.content === 'siema');
+        message.reply('siema!');
+        }
 });
 
 // THIS  MUST  BE  THIS  WAY
