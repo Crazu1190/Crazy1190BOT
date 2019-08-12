@@ -26,6 +26,7 @@ client.on('message', message => {
         message.channel.send('Nie używaj przekleństw!');
         }
     if (message.content === '!changelog') {
+        message.embed('#7FFF00');
         message.channel.send('■■■■■■■■■■■■');
         message.channel.send('**Wersja:** 1.0');
         message.channel.send('**Dodano:**');
