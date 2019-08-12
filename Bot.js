@@ -49,11 +49,6 @@ client.on('message', message => {
         message.channel.send('Wersja: 1.0');
         message.channel.send('■■■■■■■■■■■■');
         }
-    if (message.content === '!strzal') {
-        message.channel.send('Uwaga!');
-        message.reply('strzela!);
-        message.channel.send('Wszystcy ręce do góry!');
-        }
 });
 
 // THIS  MUST  BE  THIS  WAY
