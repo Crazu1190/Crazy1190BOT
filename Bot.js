@@ -25,8 +25,8 @@ client.on('message', message => {
     if (message.content === 'Kurwa') {
         message.channel.send('Nie używaj przekleństw!');
         }
-    if (message.content === '!zmutowany') {
-        message.channel.send('Off!');
+    if (message.content === '!zmutowany ${target}') {
+        message.channel.send('Off! ${target}');
         }
     if (message.content === '!info') {
         message.channel.send('Wyszukiwanie informacji...');
