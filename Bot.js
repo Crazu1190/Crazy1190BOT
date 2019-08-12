@@ -22,7 +22,7 @@ client.on('message', message => {
         }
 });
 
-if(cmd === `$report`){
+    if (message.content === '!report') {
 
     //!report @ned this is the reason
 
