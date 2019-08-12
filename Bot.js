@@ -15,9 +15,20 @@ client.on('message', message => {
     if (message.content === '!pomoc') {
         message.channel.send('ta komenda nie działa z powodu betatestów');
         }
-    if (message.content === '!info ${message.author}') {
-        message.channel.send('Test');
-        message.channel.send('${message.author} ,xd Test pomyślny!');
+    if (message.content === '!info') {
+        message.channel.send('Wyszukiwanie informacji...');
+        message.channel.send(' ');
+        message.channel.send(' ');
+        message.channel.send(' ');
+        message.channel.send('Wczytywanie...');
+        message.channel.send(' ');
+        message.channel.send(' ');
+        message.reply('wszystko zostało wczytane!');
+        message.channel.send('Serwer: NOLIFY®');
+        message.channel.send('Autor: Crazy1190');
+        message.channel.send('Język: Polski');
+        message.channel.send('Wersja: 1.0');
+        message.channel.send('Status: Online');
         }
 });
 
