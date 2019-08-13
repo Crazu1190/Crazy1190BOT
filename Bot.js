@@ -75,7 +75,7 @@ client.on('message', message => {
         message.channel.send('**Osłona załadowana!**');
         message.reply('załadował osłone jest ochroniony pred strzałem!');
         }
-    id (message.content === '!karta demogorgon');
+    if (message.content === '!karta demogorgon');
         message.channel.send('Wyszukiwanie informacji...');
         message.channel.send(' ');
         message.channel.send(' ');
