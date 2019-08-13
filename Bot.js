@@ -78,10 +78,7 @@ client.on('message', message => {
     if (message.content === '!karta demogorgon');
         message.channel.send('Wyszukiwanie informacji...');
         message.channel.send(' ');
-        message.channel.send(' ');
-        message.channel.send(' ');
         message.channel.send('Wczytywanie...');
-        message.channel.send(' ');
         message.channel.send('Zdrowie: 150❤️');
         message.channel.send('Obrażenia: 50⚔️');
         message.channel.send('Atak co: 1sec⚡');
