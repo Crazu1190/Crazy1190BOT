@@ -75,6 +75,15 @@ client.on('message', message => {
         message.channel.send('**Osłona załadowana!**');
         message.reply('załadował osłone jest ochroniony pred strzałem!');
         }
+    id (message.content === '!karta demogorgon');
+        message.channel.send('Wyszukiwanie informacji...');
+        message.channel.send(' ');
+        message.channel.send(' ');
+        message.channel.send(' ');
+        message.channel.send('Zdrowie: 150❤️');
+        message.channel.send('Obrażenia: 50⚔️');
+        message.channel.send('Atak co: 1sec⚡');
+        message.channel.send('https://cdn.discordapp.com/attachments/609795986965135360/610610044450504807/Demogorgon_-_Chapter_Eight.jpg');
 });
 
 // THIS  MUST  BE  THIS  WAY
