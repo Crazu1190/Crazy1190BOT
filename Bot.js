@@ -36,7 +36,7 @@ client.on('message', message => {
         }
     if (message.content === '!nitro') {
         message.channel.send('■■■■■■■■■■■■');
-        message.channel.send(':animowana1: :wygrana:');
+        message.channel.send(':animowane1: :Wygrana:');
         message.channel.send('■■■■■■■■■■■■');
         }
     if (message.content === '!info') {
