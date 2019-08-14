@@ -35,9 +35,7 @@ client.on('message', message => {
         message.channel.send('https://cdn.discordapp.com/attachments/609795986965135360/610610044450504807/Demogorgon_-_Chapter_Eight.jpg');
         }
     if (message.content === '<@&611150961418829846>') {
-        message.channel.send('■■■■■■■■■■■■');
         message.channel.send('Zostaw mnie! Chyba , że chcesz warnika😈');
-        message.channel.send('■■■■■■■■■■■■');
         }
     if (message.content === '!info') {
         message.channel.send('Wyszukiwanie informacji...');
