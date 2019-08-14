@@ -34,7 +34,7 @@ client.on('message', message => {
         message.channel.send('Atak co: 1 sec⚡')
         message.channel.send('https://cdn.discordapp.com/attachments/609795986965135360/610610044450504807/Demogorgon_-_Chapter_Eight.jpg');
         }
-    if (message.content === '!pomoc') {
+    if (message.content === '<@&611151368220049408>') {
         message.channel.send('■■■■■■■■■■■■');
         message.channel.send('W trakcie prac!');
         message.channel.send('■■■■■■■■■■■■');
