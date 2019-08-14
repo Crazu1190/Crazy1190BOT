@@ -34,9 +34,9 @@ client.on('message', message => {
         message.channel.send('Atak co: 1 sec⚡')
         message.channel.send('https://cdn.discordapp.com/attachments/609795986965135360/610610044450504807/Demogorgon_-_Chapter_Eight.jpg');
         }
-    if (message.content === '!nitro') {
+    if (message.content === '!pomoc') {
         message.channel.send('■■■■■■■■■■■■');
-        message.channel.send(':animowane1: :Wygrana:');
+        message.channel.send('W trakcie prac!');
         message.channel.send('■■■■■■■■■■■■');
         }
     if (message.content === '!info') {
