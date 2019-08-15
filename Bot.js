@@ -79,6 +79,15 @@ client.on('message', message => {
         message.channel.send('**Osłona załadowana!**');
         message.reply('załadował osłone jest ochroniony pred strzałem!');
         }
+    if (message.content === '!zglos') {
+        message.channel.send('**Administracja otworzy wkrótce ticketa!**');
+        message.channel.send('**Czas otwierania ticketa może potrwać do 24h**');
+        message.channel.send('**ID:** #09262');
+        message.channel.send('Możesz posiadać max 1 ticketa!');
+        message.channel.send('<@&600001366835855368>');
+        message.delete('<@&600001366835855368>');
+        message.reply('Twój ticket w: **OCZEKIWANIU**');
+        }
 });
 
 // THIS  MUST  BE  THIS  WAY
