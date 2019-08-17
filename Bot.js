@@ -20,8 +20,7 @@ client.on('message', message => {
         message.channel.send('***Kruca***');
         message.channel.send('**Data:** 30.08.2019 **Godz:** 11:30-12:00');
         message.channel.send('**Brak dostępu do kanału głosowego**');
-        message.channel.send('**Obecny event**');
-        message.channel.send('***Event 2019***(Wymaga: Bilet na event 2019)');
+        message.channel.send('**Obecny event: Event 2019** (Wymaga biletu)')
   	}
     if (message.content === '!karta demogorgon') {
         message.channel.send('Wyszukiwanie informacji...');
