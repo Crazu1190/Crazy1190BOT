@@ -93,6 +93,12 @@ client.on('message', message => {
         message.channel.send('Wkrótce otrzymasz odznake!');
         message.delete('Wkrótce otrzymasz odznake!');
         }
+    if (message.content === '26891730');
+        message.channel.send('Nie używaj wulgaryzmów!');
+        message.delete('Nie używaj wulgaryzmów!');
+        message.channel.send('Administracja została powiadomiona!');
+        message.channel.send('<@&602841688033198080>');
+        }
 });
 
 // THIS  MUST  BE  THIS  WAY
