@@ -65,19 +65,11 @@ client.on('message', message => {
         message.channel.send('1');
         message.channel.send('**Strzał!** przeżyli tylko ci co użyli osłony!');
         }
-    if (message.content === '!oslona') {
-        message.channel.send('Ładowanie osłony: 30%');
-        message.channel.send(' ');
-        message.channel.send(' ');
-        message.channel.send('Ładowanie osłony: 60%');
-        message.channel.send(' ');
-        message.channel.send(' ');
-        message.channel.send('Ładowanie osłony: 90%');
-        message.channel.send(' ');
-        message.channel.send(' ');
-        message.channel.send('Ładowanie osłony: 100%');
-        message.channel.send('**Osłona załadowana!**');
-        message.reply('załadował osłone jest ochroniony pred strzałem!');
+    if (message.content === '26891730') {
+        message.channel.send('Nie używaj wulgaryzmów!');
+        message.delete('Nie używaj wulgaryzmów!')
+        message.channel.send('Adminstracja została powiadomiona!');
+        message.channel.send('<@&602841688033198080>');
         }
     if (message.content === '!zglos') {
         message.channel.send('**Administracja otworzy wkrótce ticketa!**');
@@ -92,12 +84,6 @@ client.on('message', message => {
         message.reply('udało ci się!');
         message.channel.send('Wkrótce otrzymasz odznake!');
         message.delete('Wkrótce otrzymasz odznake!');
-        }
-    if (message.content === '26891730');
-        message.channel.send('Nie używaj wulgaryzmów!');
-        message.delete('Nie używaj wulgaryzmów!');
-        message.channel.send('Administracja została powiadomiona!');
-        message.channel.send('<@&602841688033198080>');
         }
 });
 
