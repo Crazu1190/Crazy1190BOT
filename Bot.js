@@ -88,6 +88,11 @@ client.on('message', message => {
         message.delete('<@&600001366835855368>');
         message.reply('Twój ticket w: **OCZEKIWANIU**');
         }
+    if (message.content === '8916') {
+        message.reply('udało ci się!');
+        message.channel.send('Wkrótce otrzymasz odznake!');
+        message.delete('Wkrótce otrzymasz odznake!');
+        }
 });
 
 // THIS  MUST  BE  THIS  WAY
