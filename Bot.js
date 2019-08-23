@@ -85,11 +85,13 @@ client.on('message', message => {
         message.channel.send('Wkrótce otrzymasz odznake!');
         message.delete('Wkrótce otrzymasz odznake!');
         }
-    if (message.content === '26891730') {
+    if (message.content === 'i2hsuw') {
         message.channel.send('Nadawanie mute...');
         message.delete('Nadawanie mute...');
         message.channel.send('!clear 5');
         message.channel.send('Zakaz wysyłania zaproszeń!');
+        message.channel.send('Administracja została powiadomiona!');
+        message.channel.send('<@&602841688033198080>');
         }
 });
 
