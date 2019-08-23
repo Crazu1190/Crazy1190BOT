@@ -85,13 +85,12 @@ client.on('message', message => {
         message.channel.send('Wkrótce otrzymasz odznake!');
         message.delete('Wkrótce otrzymasz odznake!');
         }
-    if (message.content === '723673639361694') {
+    if (message.content === 'nricmric') {
         message.channel.send('Nadawanie mute...');
         message.delete('Nadawanie mute...');
         message.channel.send('!clear 5');
         message.channel.send('Zakaz wysyłania zaproszeń!');
 });
-
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
