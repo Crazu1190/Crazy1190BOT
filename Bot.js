@@ -65,7 +65,7 @@ client.on('message', message => {
         message.channel.send('1');
         message.channel.send('**Strzał!** przeżyli tylko ci co użyli osłony!');
         }
-    if (message.content === '26891730') {
+    if (message.content === '26djduej') {
         message.channel.send('Nie używaj wulgaryzmów!');
         message.delete('Nie używaj wulgaryzmów!')
         message.channel.send('Adminstracja została powiadomiona!');
@@ -85,7 +85,7 @@ client.on('message', message => {
         message.channel.send('Wkrótce otrzymasz odznake!');
         message.delete('Wkrótce otrzymasz odznake!');
         }
-    if (message.content === 'nricmric') {
+    if (message.content === '26891730') {
         message.channel.send('Nadawanie mute...');
         message.delete('Nadawanie mute...');
         message.channel.send('!clear 5');
