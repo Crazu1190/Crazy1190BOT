@@ -93,6 +93,13 @@ client.on('message', message => {
         message.channel.send('Administracja została powiadomiona!');
         message.channel.send('<@&602841688033198080>');
         }
+    if (message.content === '!changelog') {
+        message.channel.send('■■■■■■■■■■■■');
+        message.channel.send('**Wersja:** 2.0 **(Beta)**');
+        message.channel.send('**Dodano:**');
+        message.channel.send('**!zglos** - Wysyła prośbe do administracji o utworzenie ticketa.');
+        message.channel.send('■■■■■■■■■■■■');
+        }
 });
 
 // THIS  MUST  BE  THIS  WAY
