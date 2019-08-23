@@ -90,6 +90,7 @@ client.on('message', message => {
         message.delete('Nadawanie mute...');
         message.channel.send('!clear 5');
         message.channel.send('Zakaz wysyłania zaproszeń!');
+        }
 });
 
 // THIS  MUST  BE  THIS  WAY
