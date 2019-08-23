@@ -23,7 +23,7 @@ client.on('message', message => {
         message.channel.send('**Obecny event: Event 2019** (Wymaga biletu)')
   	}
     if (message.content === '!karta demogorgon') {
-        premission.role('Uprawnienia bota');
+        set.premission('Uprawnienia bota');
         message.channel.send('Wyszukiwanie informacji...');
         message.channel.send(' ');
         message.channel.send(' ');
