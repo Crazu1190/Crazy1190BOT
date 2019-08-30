@@ -66,11 +66,10 @@ client.on('message', message => {
         message.channel.send('1');
         message.channel.send('**Strzał!** przeżyli tylko ci co użyli osłony!');
         }
-    if (message.content === '26djduej') {
-        message.channel.send('Nie używaj wulgaryzmów!');
-        message.delete('Nie używaj wulgaryzmów!')
-        message.channel.send('Adminstracja została powiadomiona!');
-        message.channel.send('<@&602841688033198080>');
+    if (message.content === '!partnerstwo') {
+        message.channel.send('**Partnerstwo wymagania:**');
+        message.delete('**Partnerstwo wymagania:**');
+        message.channel.send('50 osób i non toxic społeczność');
         }
     if (message.content === '!zglos') {
         message.channel.send('**Administracja otworzy wkrótce ticketa!**');
