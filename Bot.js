@@ -87,8 +87,6 @@ client.on('message', message => {
         message.delete('Wkrótce otrzymasz odznake!');
         }
     if (message.content === '!klanbs') {
-        message.channel.send('Generowanie zaproszenia...');
-        message.delete('Generowanie zaproszenia...');
         message.channel.send('Wygenerowano zaproszenie!');
         message.channel.send('**Wymagania:**');
         message.channel.send('200 pucharków i non **toxic**');
