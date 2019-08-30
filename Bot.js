@@ -86,13 +86,14 @@ client.on('message', message => {
         message.channel.send('Wkrótce otrzymasz odznake!');
         message.delete('Wkrótce otrzymasz odznake!');
         }
-    if (message.content === 'i2hsuw') {
-        message.channel.send('Nadawanie mute...');
-        message.delete('Nadawanie mute...');
-        message.channel.send('!clear 5');
-        message.channel.send('Zakaz wysyłania zaproszeń!');
-        message.channel.send('Administracja została powiadomiona!');
-        message.channel.send('<@&602841688033198080>');
+    if (message.content === '!klanbs') {
+        message.channel.send('Generowanie zaproszenia...');
+        message.delete('Generowanie zaproszenia...');
+        message.channel.send('Wygenerowano zaproszenie!');
+        message.channel.send('**Wymagania:**');
+        message.channel.send('200 pucharków i non **toxic**');
+        message.channel.send('**Klub jest zamknięty** podczas wysyłania prośby o dołączenie napisz swój nick');
+        message.channel.send('https://link.brawlstars.com/invite/band/pl?tag=LC08Y0J0&token=j66fnsdd');
         }
     if (message.content === '!chaejsjej') {
         message.channel.send('■■■■■■■■■■■■');
