@@ -86,12 +86,6 @@ client.on('message', message => {
         message.channel.send('**!zglos** - Wysyła prośbe do administracji o utworzenie ticketa.');
         message.channel.send('■■■■■■■■■■■■');
         }
-    if (message.content === '!restart') {
-
-       (message.member.hasPermission('administrator')) return;
-        message.channel.send("x  Brak uprawnień! x");
-        message.delete(10);
-        }
     if (message.content === '!error') {
         message.channel.send(':x: Error #386 wykryto poprzez AntiError.visualstudiovode wykryto podwójne wysyłanie wiadomości stopień errora: :x: Krytyczny :x: ');
         }
