@@ -20,16 +20,7 @@ client.on('message', message => {
         message.channel.send('***Kruca***');
         message.channel.send('**Data:** 30.08.2019 **Godz:** 11:30-12:00');
         message.channel.send('**Brak dostępu do kanału głosowego**');
-        message.channel.send('**Obecny event: Event 2019** (Wymaga biletu)')
-  	}
-    if (message.content === '!pomoc') {
-        message.channel.send('**!info** - Info o bocie');
-        message.channel.send('**!zglos** - Wysyła prośbe do administracji o otworzenie ticketa.');
-        message.channel.send('**!eventy** - Pokazuje wszystkie eventy');
-        message.channel.send('**!klanbs** - Wysyła zaproszenie do klanu w brawlstars');
-        message.channel.send('**!partnerstwo** - Informacje o partnerstwie');
-        message.channel.send('**Wkrótce nowe komendy**');
-        message.channel.send('bot jest w wersji beta');
+        message.channel.send('**Obecny event: Event 2019** (Wymaga biletu);
         }
     if (message.content === '<@&611150961418829846>') {
         message.channel.send('Zostaw mnie! Chyba , że chcesz warnika😈');
