@@ -96,7 +96,7 @@ client.on('message', message => {
         message.channel.send('■■■■■■■■■■■■');
         }
     if (message.content === '!restart') {
-        message.channel.send('Trwa reload bota...');
+        message.channel.send(':x: Brak uprawnień! :x: ');
         }
 });
 
