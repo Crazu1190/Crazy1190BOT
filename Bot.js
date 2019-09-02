@@ -2,8 +2,6 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
-    console.log(`Logged in as ${client.user.tag}!`);
-    client.user.setActivity('Nolify', {type: 'WATCHING'});
 
 });
 
@@ -24,18 +22,14 @@ client.on('message', message => {
         message.channel.send('**Brak dostępu do kanału głosowego**');
         message.channel.send('**Obecny event: Event 2019** (Wymaga biletu)')
   	}
-    if (message.content === '!karta demogorgon') {
-        set.premission('Uprawnienia bota');
-        message.channel.send('Wyszukiwanie informacji...');
-        message.channel.send(' ');
-        message.channel.send(' ');
-        message.channel.send(' ');
-        message.channel.send('Wczytywanie...');
-        message.channel.send(' ');
-        message.channel.send('Zdrowie: 150HP❤️');
-        message.channel.send('Obrażenia: 50HP⚔️');
-        message.channel.send('Atak co: 1 sec⚡')
-        message.channel.send('https://cdn.discordapp.com/attachments/609795986965135360/610610044450504807/Demogorgon_-_Chapter_Eight.jpg');
+    if (message.content === '!pomoc') {
+        message.channel.send('**!info** - Info o bocie');
+        message.channel.send('**!zglos** - Wysyła prośbe do administracji o otworzenie ticketa.');
+        message.channel.send('**!eventy** - Pokazuje wszystkie eventy');
+        message.channel.send('**!klanbs** - Wysyła zaproszenie do klanu w brawlstars');
+        message.channel.send('**!partnerstwo** - Informacje o partnerstwie');
+        message.channel.send('**Wkrótce nowe komendy**');
+        message.channel.send('bot jest w wersji beta');
         }
     if (message.content === '<@&611150961418829846>') {
         message.channel.send('Zostaw mnie! Chyba , że chcesz warnika😈');
