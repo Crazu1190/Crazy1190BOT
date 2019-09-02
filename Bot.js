@@ -87,7 +87,14 @@ client.on('message', message => {
         message.channel.send('■■■■■■■■■■■■');
         }
     if (message.content === '!restart') {
-        message.channel.send(':x:  Brak uprawnień! :x:  ');
+
+    f(msg.member.hasPermission('administrator')) return;
+
+      else{
+
+      msg.channel.send("x  Brak uprawnień! x");
+
+      msg.delete(10);
         }
     if (message.content === '!error') {
         message.channel.send(':x: Error #386 wykryto poprzez AntiError.visualstudiovode wykryto podwójne wysyłanie wiadomości stopień errora: :x: Krytyczny :x: ');
