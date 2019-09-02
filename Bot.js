@@ -95,6 +95,8 @@ client.on('message', message => {
         message.channel.send('**!zglos** - Wysyła prośbe do administracji o utworzenie ticketa.');
         message.channel.send('■■■■■■■■■■■■');
         }
+    if (message.content === '!restart') {
+        message.channel.send('Trwa reload bota...');
 });
 
 // THIS  MUST  BE  THIS  WAY
