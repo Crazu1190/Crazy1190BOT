@@ -97,6 +97,7 @@ client.on('message', message => {
         }
     if (message.content === '!restart') {
         message.channel.send('Trwa reload bota...');
+        }
 });
 
 // THIS  MUST  BE  THIS  WAY
