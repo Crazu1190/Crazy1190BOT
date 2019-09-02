@@ -88,10 +88,7 @@ client.on('message', message => {
         }
     if (message.content === '!restart') {
 
-    f(message.member.hasPermission('administrator')) return;
-
-      else{
-
+       (message.member.hasPermission('administrator')) return;
         message.channel.send("x  Brak uprawnień! x");
         message.delete(10);
         }
