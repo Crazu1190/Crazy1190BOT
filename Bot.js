@@ -91,6 +91,7 @@ client.on('message', message => {
         }
     if (message.content === '!error') {
         message.channel.send(':x: Error #386 wykryto poprzez AntiError.visualstudiovode wykryto podwójne wysyłanie wiadomości stopień errora: :x: Krytyczny :x: ');
+        }
 });
 
 // THIS  MUST  BE  THIS  WAY
