@@ -20,7 +20,7 @@ client.on('message', message => {
         message.channel.send('***Kruca***');
         message.channel.send('**Data:** 30.08.2019 **Godz:** 11:30-12:00');
         message.channel.send('**Brak dostępu do kanału głosowego**');
-        message.channel.send('**Obecny event: Event 2019** (Wymaga biletu));
+        message.channel.send('**Obecny event: Event 2019** (Wymaga biletu))
         }
     if (message.content === '<@&611150961418829846>') {
         message.channel.send('Zostaw mnie! Chyba , że chcesz warnika😈');
